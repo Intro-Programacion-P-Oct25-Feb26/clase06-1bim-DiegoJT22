@@ -21,10 +21,10 @@ public class Ejemplo01 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese el nombre del día de la semana");
-        String cadena = entrada.nextLine();
+        String cadena = entrada.nextLine();//Lunes
         
-        switch(cadena){
-            case "Lunes":
+        switch(cadena){//Lunes
+            case "Lunes"://true
                 System.out.printf("%s", cadena);
                 break;
             
